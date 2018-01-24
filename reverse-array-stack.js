@@ -1,6 +1,11 @@
 // 9. Reverse a stack and put the reversed value back in the same stack. You can use only one other stack and a temp variable.
+// last number in first arr going to temp,
+// all other numbers going to second arr
+// temp being pushed back to first arr
+// second array being pushed back to first array
 
-//O(n^2) === O(n*2n)
+//~O(n^2) 
+//O((n-1)(n-2)(n-3)(n-4)...1)*2) === (((n-1)+1)*(n-1))/2.
 
 
 function reverseStack(arr1){
@@ -30,7 +35,3 @@ reverseStack(arr);
 
 
 
-// last number in first arr going to temp,
-// all other numbers going to second arr
-// temp being pushed back to first arr
-// second array being pushed back to first array
