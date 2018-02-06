@@ -5,7 +5,7 @@
 // second array being pushed back to first array
 
 //~O(n^2) 
-//O((n-1)(n-2)(n-3)(n-4)...1)*2) === (((n-1)+1)*(n-1))/2.
+//O((n-1)+(n-2)+(n-3)+(n-4)...+1)*2) === (((n-1)+1)*(n-1))/2.
 
 
 function reverseStack(arr1){
